@@ -23,7 +23,7 @@ function displayResults(results) {
     // $('.results').empty();
     $('#results-list').append(
     `<li><strong>Name:</strong> ${results[i].name}</li>
-     <p><a href="${results[i].url}">Repo</a>
+     <p><a href="${results[i].html_url}" target="_blank">Repo</a>
      </p> `
   );
   
